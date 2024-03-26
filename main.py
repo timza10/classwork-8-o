@@ -3,13 +3,13 @@ class Dog:
 class DogSpike(Dog):
     name = 'Spike'
     def __init__(self):
-        self. is_walked = False
-    def walk(self):
-        print('Dog walked')
-        self. is_walked = True
+        self. is_tired = False
+    def tired(self):
+        print('Dog tired')
+        self. is_tired = True
 
 my_dog = DogSpike()
 print(my_dog.name)#'Spike'
-print(my_dog.is_walked) #False
-my_dog.walk()
-print(my_dog.is_walked)
+print(my_dog.is_tired) #False
+my_dog.tired()
+print(my_dog.is_tired)
