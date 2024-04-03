@@ -1,15 +1,15 @@
 class Dog:
     pass
-class DogSpike(Dog):
-    name = 'Spike'
+class DogRex(Dog):
+    name = 'Rex'
     def __init__(self):
-        self. is_tired = False
-    def tired(self):
-        print('Dog tired')
-        self. is_tired = True
+        self. is_hungry = False
+    def hungry(self):
+        print('Dog hungry')
+        self. is_hungry = True
 
-my_dog = DogSpike()
+my_dog = DogRex()
 print(my_dog.name)#'Spike'
-print(my_dog.is_tired) #False
-my_dog.tired()
-print(my_dog.is_tired)
+print(my_dog.is_hungry) #False
+my_dog.hungry()
+print(my_dog.is_hungry)
